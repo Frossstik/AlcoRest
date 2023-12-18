@@ -9,6 +9,7 @@ namespace AlcoRest.Services.MapperProfiles
         public AutoMapperProfile()
         {
             CreateMap<Product, ProductDto>().ReverseMap();
+            CreateMap<Category, CategoryDto>().ReverseMap();
         }
     }
 }
